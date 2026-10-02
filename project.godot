@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Reuse port rest project"
+config/version="0.0.1"
+run/main_scene="uid://bwealpyt1tcyp"
+config/features=PackedStringArray("26.3", "GL Compatibility", "Redot")
+boot_splash/show_image=false
+config/icon="res://icon.svg"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

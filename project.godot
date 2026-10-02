@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Reuse port rest project"
-config/version="0.0.1"
+config/version="0.0.2"
 run/main_scene="uid://bwealpyt1tcyp"
 config/features=PackedStringArray("26.3", "GL Compatibility", "Redot")
 boot_splash/show_image=false

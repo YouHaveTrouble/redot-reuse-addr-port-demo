@@ -60,3 +60,4 @@ func listen() -> void:
 		label.text = "Listening..."
 	else:
 		print("Failed to bind to the port!")
+		label.text = "My ears are closed!"
